@@ -1,0 +1,41 @@
+/*************************/
+/***Legkisebb felbontás **/
+/*************************/
+@media (max-width: 400px) {}
+body{ 
+      background-color:#FF0000;
+}
+/*************************/
+/***felbontás: 400-800  **/
+/*************************/
+@media (min-width: 400px) and (max-width: 800px) {
+
+     body{ 
+	       background-color:#0000FF;
+   }
+}
+/**************************/
+/***felbontás  800-1024  **/
+/**************************/
+@media (min-width: 800px) and (max-width: 1024px) {
+	body{
+		/*background-color: yellow;*/
+		background-color:#FFFF00;
+	}
+}
+/**************************/
+/***Legnagyobb felbontás **/
+/**************************/
+@media (min-width: 1024px) {
+	body{
+		/*background-color: green;*/
+		background-color:#00FF00;
+	}
+}
+	body{	
+	      font-size: 18px;
+	}
+	img{
+		width: 480px;
+		height: 360px;
+	}
